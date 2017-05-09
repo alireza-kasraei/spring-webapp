@@ -6,10 +6,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-public class ThymeleafTutorialApplication {
+public class SpringWebappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ThymeleafTutorialApplication.class, args);
+		SpringApplication.run(SpringWebappApplication.class, args);
 	}
 
 	@Controller
